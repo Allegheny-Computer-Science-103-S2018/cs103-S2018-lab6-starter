@@ -1,6 +1,3 @@
 [submodule "gatorgrader"]
 	path = gatorgrader
 	url = https://github.com/gkapfham/gatorgrader.git
-[submodule "src/www/css/gatorgrader"]
-	path = src/www/css/gatorgrader
-	url = https://github.com/gkapfham/gatorgrader.git
