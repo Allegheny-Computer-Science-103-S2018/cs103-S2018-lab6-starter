@@ -1,0 +1,17 @@
+/* TODO: Add styles so that the table, for instance, has a width of 600px */
+table {
+  color: #333;
+}
+td, th {
+  border: 1px solid transparent;
+  height: 30px;
+  transition: all 0.3s;
+}
+/* TODO: Add a setting so that the font in the header is bold */
+th {
+}
+/* TODO: Add a setting so that the table contents are aligned in the center */
+td {
+}
+/* TODO: Add styles using the nth-child for odd and even table rows */
+/* TODO: Add a td:hover rule that will change the background to #777 and the font color to #FFF */
