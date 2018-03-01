@@ -219,7 +219,7 @@ if [ "$CHECK" = true ]; then
   python3 gatorgrader/gatorgrader.py --nowelcome --directories writing --checkfiles reflection.md --paragraphs 5
   determine_exit_code $?
   # --> GatorGrader CHECK: the repository contains at least five commits (update to current + 5)
-  python3 gatorgrader/gatorgrader.py --nowelcome --commits 5
+  python3 gatorgrader/gatorgrader.py --nowelcome --commits 20
   determine_exit_code $?
   echo ""
   printf "%s\n" "${blu}... Finished checking with GatorGrader${end}"
